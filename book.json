@@ -1,0 +1,38 @@
+{
+    "plugins": [
+        "ga",
+        "versions",
+        "scripts",
+        "include-codeblock",
+        "ace"
+    ],
+    "title": "NativeBase Market UI Themes",
+    "variables":{
+      "options": "react-native-flat-app-theme"
+       },
+    "pluginsConfig": {
+      "scripts": {
+          "files": [
+              "./engine.js"
+          ]
+      },
+        "versions": {
+
+            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/native-base-market-social-app-docs-ui/master/book.json",
+            "options": [
+                {
+                    "value": "http://docs.market.nativebase.io/react-native-social-app-ui",
+                    "text": "v6.0.0"
+                }
+            ]
+        },
+        "ga": {
+            "token": "UA-91837749-1"
+        },
+        "include-codeblock": {
+                "template": "ace",
+                "unindent": true
+            }
+    }
+
+}
