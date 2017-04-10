@@ -1,31 +1,25 @@
 {
     "plugins": [
         "ga",
-        "versions",
         "scripts",
         "include-codeblock",
-        "ace"
+        "ace",
+        "edit-link"
     ],
     "title": "NativeBase Market UI Themes",
     "variables":{
       "options": "react-native-flat-app-theme"
        },
     "pluginsConfig": {
+      "edit-link": {
+            "base": "https://github.com/GeekyAnts/native-base-market-taxi-app-docs-ui/tree/master",
+            "label": "Edit This Page"
+        },
       "scripts": {
           "files": [
               "./engine.js"
           ]
       },
-        "versions": {
-
-            "gitbookConfigURL": "http://rawgit.com/GeekyAnts/native-base-market-social-app-docs-ui/master/book.json",
-            "options": [
-                {
-                    "value": "http://docs.market.nativebase.io/react-native-social-app-ui",
-                    "text": "v7.0.0"
-                }
-            ]
-        },
         "ga": {
             "token": "UA-91837749-1"
         },
