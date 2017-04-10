@@ -1,10 +1,16 @@
 ### Release Notes
 
-### 6.0.0
+### 7.0.0
 
 #### New Features
 
 *   Using [**Create React Native App**](https://github.com/react-community/create-react-native-app)
+*   Upgraded to [React Native](https://github.com/facebook/react-native) 0.41.0
+
+### 6.0.0
+
+#### New Features
+
 *   Upgraded to [React](https://facebook.github.io/react/) 15.4.1
 *   Upgraded to [React Native](https://github.com/facebook/react-native) 0.41.0
 *   Upgraded to [NativeBase](https://github.com/GeekyAnts/NativeBase) 2.0.x
