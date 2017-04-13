@@ -1,12 +1,10 @@
 {
     "plugins": [
-        "ga",
-        "scripts",
         "include-codeblock",
         "ace",
         "edit-link"
     ],
-    "title": "NativeBase Market UI Themes",
+    "title": "Taxi App UI",
     "variables":{
       "options": "react-native-flat-app-theme"
        },
@@ -14,14 +12,6 @@
       "edit-link": {
             "base": "https://github.com/GeekyAnts/native-base-market-taxi-app-docs-ui/tree/master",
             "label": "Edit This Page"
-        },
-      "scripts": {
-          "files": [
-              "./engine.js"
-          ]
-      },
-        "ga": {
-            "token": "UA-91837749-1"
         },
         "include-codeblock": {
                 "template": "ace",

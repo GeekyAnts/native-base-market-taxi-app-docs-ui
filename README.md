@@ -1,1 +1,1 @@
-{% include "./docs/react-native-taxi-app-theme/README.md" %}
+{% include "./docs/README.md" %}
