@@ -1,1 +1,0 @@
-{% include "./docs/packages.md" %}
